@@ -14,6 +14,6 @@
     "skipLibCheck": true
   },
   "include": [
-    "/workspaces/type-transformations-workshop/src/02-unions-and-indexing/08-indexed-access.problem.ts"
+    "/workspaces/type-transformations-workshop/src/02-unions-and-indexing/09-discriminated-union-to-discriminator.problem.ts"
   ]
 }

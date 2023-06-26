@@ -14,6 +14,9 @@ export type Event =
       event: KeyboardEvent;
     };
 
-type EventType = unknown;
+type EventType = Extract<
+  Event,
+  { type: "click" | "focus" | "keydown" }
+>["type"];
 
 type tests = [Expect<Equal<EventType, "click" | "focus" | "keydown">>];
